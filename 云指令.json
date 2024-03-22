@@ -63,7 +63,7 @@
    "内容":"命令集搬运",
    "隐藏":true,
    "布局":[
-{"类型":"指令集","标题":"击杀特效及音效(旧execute)","图标":"图片/232218.png","展开":true,"运行":false,"字体颜色":"#000000","内容":[
+{"类型":"指令集","标题":"击杀特效及音效(旧execute)","图标":"图片/232218.png","展开":true,"运行":false,"内容":[
 "生物死亡会播放音效,并生成粒子",
 "/scoreboard objectives add a dummy",
 "scoreboard players set @a[scores={a=!2}] a 0",
