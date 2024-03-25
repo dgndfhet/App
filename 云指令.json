@@ -90,47 +90,9 @@
    "隐藏":true,
    "布局":[
 
-"例子如下",
+"先在下方创建json后复制分享",
 
-{"类型":"指令集","标题":"击杀特效及音效(旧execute)","图标":"图片/232218.png","展开":true,"运行":false,"内容":[
-"生物死亡会播放音效,并生成粒子",
-"/scoreboard objectives add a dummy",
-"scoreboard players set @a[scores={a=!2}] a 0",
-"scoreboard players set @e[type=player] a 1",
-"execute @a[scores={a=0}] ~ ~ ~ particle minecraft:cauldron_splash_particle ~ ~ ~",
-"execute @a[scores={a=0}] ~ ~ ~ playsound mob.endermen.death @s",
-"scoreboard players set @a[scores={a=0}] a 2"
-],
-
-"1":{"图片":"图片/232150.png","注释":"创建记分板（需单独运行）"},
-"2":{"图片":"图片/循环.png","注释":"设置玩家分数不等于2的玩家分数为0"},
-"3":{"图片":"图片/连锁.png","注释":"将任然存活的玩家分数设置为1死亡玩家分数保留为0"},
-"4":{"图片":"图片/连锁.png","注释":"在分数为0的玩家处生成粒子"},
-"5":{"图片":"图片/连锁.png","注释":"在分数为0的玩家处播放音效"},
-"6":{"图片":"图片/连锁.png","注释":"将死亡玩家分数设置为0"}
-},
-
-"json格式如下，到时直接给我json格式就好了",
-
-{"类型":"指令编辑","标题":"json指令组格式 (长按复制)","展开":true,"运行":false,"内容":"{\"类型\":\"指令集\",\"标题\":\"击杀特效及音效(旧execute)\",\"图标\":\"图片/232218.png\",\"展开\":true,\"运行\":false,\"字体颜色\":\"#000000\",\"内容\":[
-\"生物死亡会播放音效,并生成粒子\",
-\"/scoreboard objectives add a dummy\",
-\"scoreboard players set @a[scores={a=!2}] a 0\",
-\"scoreboard players set @e[type=player] a 1\",
-\"execute @a[scores={a=0}] ~ ~ ~ particle minecraft:cauldron_splash_particle ~ ~ ~\",
-\"execute @a[scores={a=0}] ~ ~ ~ playsound mob.endermen.death @s\",
-\"scoreboard players set @a[scores={a=0}] a 2\"
-],
-
-//图片在命令包本地
-//这里的key为1 2 3 4 5 6的分别表示第[1 2 3 4 5 6]条指令的参数内容，如何不需要图片或者注释不需要写
-\"1\":{\"图片\":\"图片/232150.png\",\"注释\":\"创建记分板（需单独运行）\",\"字体颜色\":\"#0000FF\"},
-\"2\":{\"图片\":\"图片/循环.png\",\"注释\":\"设置玩家分数不等于2的玩家分数为0\"},
-\"3\":{\"图片\":\"图片/连锁.png\",\"注释\":\"将任然存活的玩家分数设置为1死亡玩家分数保留为0\"},
-\"4\":{\"图片\":\"图片/连锁.png\",\"注释\":\"在分数为0的玩家处生成粒子\"},
-\"5\":{\"图片\":\"图片/连锁.png\",\"注释\":\"在分数为0的玩家处播放音效\"},
-\"6\":{\"图片\":\"图片/连锁.png\",\"注释\":\"将死亡玩家分数设置为0\"}
-}"},
+{"类型":"插件视图","路径":"插件.dex","包":"com.example.websocket.CreateCammand","方法":"run","参数":["#context","#plugin"]},
 
 {"类型":"文本","粗体":true,"字体大小":14,"自适应":true,"注释":"建议直接qq发给我1789105095","注释颜色":"#ff0000"},
 
