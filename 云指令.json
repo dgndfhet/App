@@ -134,12 +134,13 @@
    {
    "标题":"留言上传指令🗯",
    "内容":"在网页中反馈，看见了会上传上去",
+"消息":"暂时用不了",
    "隐藏":true,
    "布局":[
 
 "先在下方创建json后复制分享",
 
-{"类型":"插件视图","路径":"插件.dex","包":"com.example.websocket.CreateCammand","方法":"run","参数":["#context","#plugin"]},
+{"类型":"插件视图","路径":"classes.dex","包":"com.example.websocket.CreateCammand","方法":"run","参数":["#context","#plugin"]},
 
 {"类型":"文本","粗体":true,"字体大小":14,"自适应":true,"注释":"建议直接qq发给我1789105095","注释颜色":"#ff0000"},
 
