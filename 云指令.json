@@ -205,8 +205,8 @@
 "/execute as @e[type=arrow] at @s unless block ~0.01 ~ ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 ,
@@ -220,8 +220,8 @@
 "/execute as @e[type=arrow] at @s unless block ~-0.01 ~ ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 ,
@@ -235,8 +235,8 @@
 "/execute as @e[type=arrow] at @s unless block ~ ~0.01 ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 ,
@@ -250,8 +250,8 @@
 "/execute as @e[type=arrow] at @s unless block ~ ~-0.01 ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 ,
@@ -265,8 +265,8 @@
 "/execute as @e[type=arrow] at @s unless block ~ ~ ~0.01 air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 ,
@@ -280,8 +280,8 @@
 "/execute as @e[type=arrow] at @s unless block ~ ~ ~-0.01 air align y run /summon minecraft:ender_crystal x ~ ~ ~",
 "/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+"0":{"图片":"图片/循环.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/连锁.png","注释":"","字体颜色":"#0000FF"}
 
 }
 
