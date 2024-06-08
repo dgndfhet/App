@@ -188,7 +188,7 @@
 ]},
 
 {
-"标题":"爆炸弓",
+"标题":"爆炸弓（落地爆炸，全方位检测（新语法））",
 "内容":"：₂₀₂₄ 🇪＝🇲 🇨²",
 "左图标":"https://s21.ax1x.com/2024/06/08/pktxugs.jpg",
 "左图标高":30,
@@ -197,18 +197,91 @@
 
 {
 "类型":"指令集",
-"标题":"爆炸弓",
+"标题":"x坐标检测",
 "图标":"图片/232218.png",
 "展开":true,
 "运行":false,
 "内容":[
-"指令",
-"",
-""
+"/execute as @e[type=arrow] at @s unless block ~0.01 ~ ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
 ],
-"0":{"图片":"图片/脉冲.png","注释":"注释消息","字体颜色":"#0000FF"}
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
 ,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
-,"2":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+
+}
+,
+{
+"类型":"指令集",
+"标题":"x",
+"图标":"图片/232218.png",
+"展开":true,
+"运行":false,
+"内容":[
+"/execute as @e[type=arrow] at @s unless block ~-0.01 ~ ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
+],
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+
+}
+,
+{
+"类型":"指令集",
+"标题":"y坐标",
+"图标":"图片/232218.png",
+"展开":true,
+"运行":false,
+"内容":[
+"/execute as @e[type=arrow] at @s unless block ~ ~0.01 ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
+],
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+
+}
+,
+{
+"类型":"指令集",
+"标题":"y",
+"图标":"图片/232218.png",
+"展开":true,
+"运行":false,
+"内容":[
+"/execute as @e[type=arrow] at @s unless block ~ ~-0.01 ~  air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
+],
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+
+}
+,
+{
+"类型":"指令集",
+"标题":"z坐标",
+"图标":"图片/232218.png",
+"展开":true,
+"运行":false,
+"内容":[
+"/execute as @e[type=arrow] at @s unless block ~ ~ ~0.01 air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
+],
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+
+}
+,
+{
+"类型":"指令集",
+"标题":"z",
+"图标":"图片/232218.png",
+"展开":true,
+"运行":false,
+"内容":[
+"/execute as @e[type=arrow] at @s unless block ~ ~ ~-0.01 air align y run /summon minecraft:ender_crystal x ~ ~ ~",
+"/execute as @e[type=ender_crystal] at @s run /summon minecraft:snowball 引爆球 ~ ~ ~"
+],
+"0":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
+,"1":{"图片":"图片/脉冲.png","注释":"","字体颜色":"#0000FF"}
 
 }
 
