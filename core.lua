@@ -28,4 +28,4 @@ local text=""
 for line in io.lines("/storage/emulated/0/1.lua") do
     text=text.."\n"..line
 end
-diaLogs("文件",text)
+diaLogs("文件",text).show()
