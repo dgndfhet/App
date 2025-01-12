@@ -22,3 +22,5 @@ diaLogs("欢迎使用","配置包只设置了基础数据，如有更新可自�
 .setPositiveButton("关闭")
 .show()
 end
+
+Toast("uffuf")
