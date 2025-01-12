@@ -22,10 +22,3 @@ diaLogs("欢迎使用","配置包只设置了基础数据，如有更新可自�
 .setPositiveButton("关闭")
 .show()
 end
-
-local text=""
---按行读取
-for line in io.lines("/storage/emulated/0/1.lua") do
-    text=text.."\n"..line
-end
-diaLogs("文件",text).show()
