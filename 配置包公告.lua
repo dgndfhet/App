@@ -1,7 +1,5 @@
 local version=getInt("xx12d配置包版本",0)
 
-Toast("当前配置包版本："..version)
-
 -- 获取当前时间戳
 local time = math.floor(os.time())
 --获取上次显示时间
@@ -23,4 +21,18 @@ diaLogs("欢迎使用","配置包只设置了基础数据，如有更新可自�
 
 .setPositiveButton("关闭")
 .show()
+end
+
+if version<11 then
+diaLogs("配置包发现新版本","")
+
+.setNeutralButton("加入Q群",
+"openUrl('https://qm.qq.com/q/iYruxxYiyI')")
+
+.setNegativeButton("下载","openUrl('')")
+
+.setPositiveButton("关闭")
+.show()
+else
+Toast("未发现新版本")
 end
