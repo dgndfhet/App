@@ -1,5 +1,7 @@
 local version=getInt("xx12d配置包版本",0)
 
+Toast("当前配置包版本："..version)
+
 -- 获取当前时间戳
 local time = math.floor(os.time())
 --获取上次显示时间
