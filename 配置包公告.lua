@@ -34,5 +34,5 @@ diaLogs("配置包发现新版本","")
 .setPositiveButton("关闭")
 .show()
 else
-Toast("未发现新版本")
+--未发现新版本
 end
