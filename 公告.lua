@@ -11,7 +11,7 @@ diaLogs("更新历史",text)
 if getAppVersion()<58 then
 diaLogs("发现新版本","1.修复部位ini文件代码高亮失败\n2.修复代码中图像/音响无法快速预览")
 
-.setNeutralButton("历史更新",HistoricalVersion)
+.setNeutralButton("历史更新",updateHistory)
 
 .setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736868863967/RWMOD_11.1.apk')")
 
