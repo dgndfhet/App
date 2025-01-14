@@ -1,6 +1,6 @@
 local updateHistory=[[
 
-html="<b>11.1</b><br/>1.修复部位ini文件代码高亮失败<br/>2.修复代码中图像/音响无法快速预览<br/><br/><br/>"
+html="<b>11.1版本</b><br/>1.修复部位ini文件代码高亮失败<br/>2.修复代码中图像/音响无法快速预览<br/><br/><br/>"
 .."<b>11.0版本</b><br/>1.修复外部打开数据载入不全<br/>2.修复多选状态下越界无法扩选<br/>3.自定义关键词高亮语法重新修改<br/>4.移除未及时删除的调试功能"
 
 text="11.1\n1.修复部位ini文件代码高亮失败\n2.修复代码中图像/音响无法快速预览\n\n\n"
@@ -8,14 +8,14 @@ text="11.1\n1.修复部位ini文件代码高亮失败\n2.修复代码中图像/�
 
 message=text
 
-if getAppVersion()>58 then
+if getAppVersion()>56 then
 message=html
 end
 
 local dialogs=diaLogs("更新历史",message)
 dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')")
 dialogs.setPositiveButton("关闭")
-if getAppVersion()>58 then
+if getAppVersion()>56 then
 --57版本新增方法
 dialogs.setHtmlLoad(true)
 dialogs.setTextIsSelectable(true)
