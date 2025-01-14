@@ -4,7 +4,7 @@ local HistoricalVersion=
 
 "11.0版本\n\n1.修复外部打开数据载入不全\n2.修复多选状态下越界无法扩选\n3.自定义关键词高亮语法重新修改\n4.移除未及时删除的调试功能\n\n\n\n"..
 
-"').setNeutralButton('加入Q群','openUrl('https://qm.qq.com/q/iYruxxYiyI')'"..
+"').setNeutralButton('加入Q群','openUrl('https://qm.qq.com/q/iYruxxYiyI')"..
 ".setPositiveButton('关闭')"..
 ".show()"
 
