@@ -33,3 +33,4 @@ diaLogs("发现新版本","1.修复部位ini文件代码高亮失败\n2.修复�
 .setPositiveButton("关闭")
 
 .show()
+end
