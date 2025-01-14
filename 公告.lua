@@ -6,7 +6,7 @@ text="<b>11.1</b>\n1.修复部位ini文件代码高亮失败\n2.修复代码中�
 local dialogs=diaLogs("更新历史",text)
 dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')")
 dialogs.setPositiveButton("关闭")
-if getAppVersion()>56 then
+if getAppVersion()>58 then
 --57版本新增方法
 dialogs.setHtmlLoad(true)
 dialogs.setTextIsSelectable(true)
