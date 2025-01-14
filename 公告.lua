@@ -25,7 +25,7 @@ end
 dialogs.show()
 ]]
 
-if getAppVersion()<58 then
+if getAppVersion()<57 then
 diaLogs("发现新版本","1.修复部位ini文件代码高亮失败\n2.修复代码中图像/音响无法快速预览")
 
 .setNeutralButton("历史更新",updateHistory)
