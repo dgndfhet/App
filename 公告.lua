@@ -15,7 +15,7 @@ end
 
 local dialogs=diaLogs("更新历史",message)
 dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')")
-.setNegativeButton("下载新版","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736878602374/RWMOD_11.1.apk')")
+.setNegativeButton("下载新版","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736915285224/RWMOD_11.1.apk')")
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
 --57版本新增方法
@@ -31,7 +31,7 @@ local dialogs=diaLogs("发现新版本","1.修复部位ini文件代码高亮失�
 
 dialogs.setNeutralButton("历史更新",updateHistory)
 
-dialogs.setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736878602374/RWMOD_11.1.apk')")
+dialogs.setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736915285224/RWMOD_11.1.apk')")
 
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
