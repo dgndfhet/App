@@ -19,6 +19,8 @@ dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
 --57版本新增方法
+dialogs.setHtmlLoad(true)
+dialogs.setTextIsSelectable(true)
 dialogs.setPopupClosable(false)
 end
 dialogs.show()
@@ -34,8 +36,6 @@ dialogs.setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
 --57版本新增方法
-dialogs.setHtmlLoad(true)
-dialogs.setTextIsSelectable(true)
 dialogs.setPopupClosable(false)
 end
 
