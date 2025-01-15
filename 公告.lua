@@ -21,6 +21,7 @@ if getAppVersion()>56 then
 --57版本新增方法
 dialogs.setHtmlLoad(true)
 dialogs.setTextIsSelectable(true)
+dialogs.setPopupClosable(false)
 end
 dialogs.show()
 ]]
