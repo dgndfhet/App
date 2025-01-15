@@ -23,16 +23,20 @@ diaLogs("欢迎使用","配置包只设置了基础数据，如有更新可自�
 .show()
 end
 
-if version<11 then
-diaLogs("配置包发现新版本","")
+if version<14 then
+local dialogs=diaLogs("配置包发现新版本","")
 
-.setNeutralButton("加入Q群",
+dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
 
-.setNegativeButton("下载","openUrl('')")
+dialogs.setNegativeButton("下载","openUrl('')")
 
-.setPositiveButton("关闭")
-.show()
+dialogs.setPositiveButton("关闭")
+if getAppVersion()>56 then
+--57版本新增方法
+dialogs.setPopupClosable(false)
+end
+dialogs.show()
 else
 --未发现新版本
 end
