@@ -19,8 +19,6 @@ dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
 --57版本新增方法
-dialogs.setHtmlLoad(true)
-dialogs.setTextIsSelectable(true)
 dialogs.setPopupClosable(false)
 end
 dialogs.show()
