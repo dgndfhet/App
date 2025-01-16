@@ -24,14 +24,10 @@ end
 
 if version<14 then
 local dialogs=diaLogs("配置包发现新版本","")
-
 dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
-
 dialogs.setNegativeButton("下载","openUrl('')")
-
 dialogs.setPositiveButton("关闭")
-
 dialogs.setPopupClosable(false)
 dialogs.setEnableCaching(false)
 dialogs.show()
