@@ -29,6 +29,6 @@ dialogs.setNeutralButton("加入Q群",
 dialogs.setNegativeButton("下载","openUrl('')")
 dialogs.setPositiveButton("关闭")
 dialogs.setPopupClosable(false)
-dialogs.setEnableCaching(false)
+--dialogs.setEnableCaching(false)
 dialogs.show()
 end
