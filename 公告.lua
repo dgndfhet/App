@@ -48,5 +48,5 @@ end
 
 dialogs.show()
 else
-Toast("APP最新版")
+--Toast("APP最新版")
 end
