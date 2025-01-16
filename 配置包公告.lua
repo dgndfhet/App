@@ -36,7 +36,4 @@ dialogs.setPositiveButton("关闭")
 dialogs.setPopupClosable(false)
 dialogs.setEnableCaching(false)
 dialogs.show()
-else
---未发现新版本
---Toast("未发现新版本")
 end
