@@ -8,5 +8,6 @@ dialogs.setPositiveButton("关闭")
 
 if getAppVersion()<56 then
 dialogs.setPopupClosable(false) end
+
 dialogs.show()
 end
