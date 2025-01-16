@@ -28,6 +28,9 @@ dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
 dialogs.setNegativeButton("下载","openUrl('')")
 dialogs.setPositiveButton("关闭")
-dialogs.setPopupClosable(false)
+
+if getAppVersion()<56 then
+dialogs.setPopupClosable(false) end
+
 dialogs.show()
 end
