@@ -33,7 +33,7 @@ end
 dialogs.show()
 ]]
 
-if getAppVersion()<58 then
+if getAppVersion()<59 then
 local dialogs=diaLogs("发现新版本","1.优化初次使用配置包报错\n2.优化配置包报错弹窗大量弹出，现在会一个一个展示\n3.修复配置包贴花节点关键词重复")
 
 dialogs.setNeutralButton("历史更新",updateHistory)
