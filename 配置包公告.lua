@@ -23,10 +23,10 @@ end
 
 
 if version<12 then
-local dialogs=diaLogs("配置包发现新版本","")
+local dialogs=diaLogs("配置包发现新版本","1.修复节点[贴花]下关键词重复\n2.github使用镜像网站加速")
 dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
-dialogs.setNegativeButton("下载","openUrl('')")
+dialogs.setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737047566571/1.15配置包_12.zip')")
 dialogs.setPositiveButton("关闭")
 
 if getAppVersion()<56 then
