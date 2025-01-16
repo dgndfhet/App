@@ -42,4 +42,6 @@ dialogs.setPopupClosable(false)
 end
 
 dialogs.show()
+else
+Toast("APP最新版")
 end
