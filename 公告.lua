@@ -6,6 +6,7 @@ dialogs.setNegativeButton("下载","openUrl('https://fs-im-kefu.7moor-fs1.com/ly
 
 dialogs.setPositiveButton("关闭")
 
-if getAppVersion()<56 then dialogs.setPopupClosable(false) end
+if getAppVersion()<56 then
+dialogs.setPopupClosable(false) end
 dialogs.show()
 end
