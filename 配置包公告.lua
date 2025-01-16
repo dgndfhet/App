@@ -23,7 +23,7 @@ diaLogs("欢迎使用","配置包只设置了基础数据，如有更新可自�
 .show()
 end
 
-if version<11 then
+if version<13 then
 local dialogs=diaLogs("配置包发现新版本","")
 
 dialogs.setNeutralButton("加入Q群",
