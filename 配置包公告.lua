@@ -39,5 +39,5 @@ end
 dialogs.show()
 else
 --未发现新版本
-Toast("未发现新版本")
+--Toast("未发现新版本")
 end
