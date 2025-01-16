@@ -22,7 +22,7 @@ end
 
 
 
-if version<12 then
+if version<13 then
 local dialogs=diaLogs("配置包发现新版本","1.修复节点[贴花]下关键词重复\n2.github使用镜像网站加速")
 dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
