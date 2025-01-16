@@ -22,7 +22,7 @@ end
 
 
 
-if version<14 then
+if version<11 then
 local dialogs=diaLogs("配置包发现新版本","")
 dialogs.setNeutralButton("加入Q群",
 "openUrl('https://qm.qq.com/q/iYruxxYiyI')")
