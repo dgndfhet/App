@@ -32,10 +32,9 @@ dialogs.setNeutralButton("加入Q群",
 dialogs.setNegativeButton("下载","openUrl('')")
 
 dialogs.setPositiveButton("关闭")
-if getAppVersion()>56 then
---57版本新增方法
+
 dialogs.setPopupClosable(false)
-end
+dialogs.setEnableCaching(false)
 dialogs.show()
 else
 --未发现新版本
