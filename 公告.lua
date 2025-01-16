@@ -1,5 +1,5 @@
 if getAppVersion()<61 then
-local dialogs=diaLogs("发现新版本","<h3>1.<h3/>优化初次使用配置包报错<br/><h3>2.<h3/>优化配置包报错弹窗大量弹出，现在会一个一个展示<br/><h3>3.<h3/>修复配置包贴花节点关键词重复")
+local dialogs=diaLogs("发现新版本","<b>1.<b/>优化初次使用配置包报错<br/><b>2.<b/>优化配置包报错弹窗大量弹出，现在会一个一个展示<br/><b>3.<b/>修复配置包贴花节点关键词重复")
 
 dialogs.setNeutralButton("历史更新",updateHistory)
 
