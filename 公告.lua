@@ -17,7 +17,7 @@ end
 
 local dialogs=diaLogs("更新历史",message)
 dialogs.setNeutralButton("加入Q群","openUrl('https://qm.qq.com/q/iYruxxYiyI')")
-.setNegativeButton("下载新版","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736915285224/RWMOD_11.1.apk')")
+.setNegativeButton("下载新版","openUrl('https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737031396847/RWMOD_11.2.apk')")
 dialogs.setPositiveButton("关闭")
 if getAppVersion()>56 then
 --57版本新增方法
